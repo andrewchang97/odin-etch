@@ -5,9 +5,18 @@
 .squareInGrid{
     flex: 0 0 calc(6.25% - 2px);
     margin: 1px;
-    position: relative;
+    /* position: relative; */
     height: 0;
     padding-bottom: 6.25%;
+    background-color: blue;
+}
+.squareInGrid2{
+    flex: 0 0 calc(var(--player-percent) - 2px);
+    margin: .5px;
+    padding: 0px;
+    position: relative;
+    height: 0;
+    padding-bottom: var(--player-percent);
     background-color: blue;
 }
 /* .squareInGrid:hover{
