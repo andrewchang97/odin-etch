@@ -3,11 +3,13 @@
     flex-wrap: wrap;
 }
 .squareInGrid{
-    flex: 1 0 6%;
+    flex: 0 0 calc(6.25% - 2px);
     margin: 1px;
-    height: 24px;
-    width: 24px;
-    height: 100px;
+    position: relative;
+    height: 0;
+    padding-bottom: 6.25%;
     background-color: blue;
-    
 }
+/* .squareInGrid:hover{
+    background-color: greenyellow;
+} */
