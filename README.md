@@ -1,1 +1,1 @@
-# odin-etch
+Beginning etch-a-sketch project on 8/9/23# odin-etch

@@ -1,0 +1,13 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.squareInGrid{
+    flex: 1 0 6%;
+    margin: 1px;
+    height: 24px;
+    width: 24px;
+    height: 100px;
+    background-color: blue;
+    
+}
